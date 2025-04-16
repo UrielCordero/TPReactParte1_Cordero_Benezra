@@ -1,17 +1,17 @@
 //import { useState } from 'react'
 import './App.css'
-import Form from './Formulario.jsx'
+import Formulario from './Formulario/'
+import Listado from './Listado'
 
 function App() {
   //const [count, setCount] = useState(0)
-
   return (
     <>
-      <Form></Form>
+      <h1>Crear mi cita:</h1>
+      <Formulario/>
+      <Listado/>
     </>
   )
 }
 
-
-
-export default App
+export default App;
