@@ -1,15 +1,21 @@
-//import { useState } from 'react'
 import './App.css'
 import Formulario from './Formulario/'
 import Listado from './Listado'
 
 function App() {
-  //const [count, setCount] = useState(0)
   return (
     <>
-      <h1>Crear mi cita:</h1>
-      <Formulario/>
-      <Listado/>
+      <h1>ADMINISTRADOR DE CITAS</h1>
+      <div class="container">
+        <div class="row">
+          <div class="one-half column">
+            <Formulario/>
+          </div>
+          <div class="one-half column">
+            <Listado/>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
